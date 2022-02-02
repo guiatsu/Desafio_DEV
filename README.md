@@ -30,7 +30,6 @@ Entretanto, antes de começar peço que tenha o Node(para rodar os programas), n
  - Para visualizar a resolução verifique o arquivo de nome ListManipulation.js
  - Para rodar um teste individual peço que substitua o valor da variavel board com a nova entrada e utilize: ``` node SudokuValitationRun.js ```
 
-
 #### Exemplo de como será recebido o resultado:
 
 ```
@@ -48,7 +47,8 @@ board =
    output: true
 ```
 </details>
-## Casos de teste
+
+## Casos de teste 
 
 <details>
  - Para executar o teste unitário de ambos os problemas utilize: ``` npm test ```
