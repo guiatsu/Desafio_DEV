@@ -11,7 +11,11 @@ Entretanto, antes de começar peço que tenha o Node(para rodar os programas), n
 <details>
 <summary>Manipulando listas</summary>
  - Para visualizar a resolução verifique o arquivo de nome ListManipulation.js
- - Para rodar um teste individual utilize: ``` node ListManipulationRun.js ```, após isso será requisitado que forneça uma lista no formato x,x,x,x,x,...,x onde x sejam numeros inteiros.
+ - Para rodar um teste individual utilize: 
+ 
+ ``` node ListManipulationRun.js ```
+ 
+ após isso será requisitado que forneça uma lista no formato x,x,x,x,x,...,x onde x sejam numeros inteiros.
 
 ### Exemplo de como será recebido o resultado:
 
@@ -28,7 +32,10 @@ Entretanto, antes de começar peço que tenha o Node(para rodar os programas), n
 <details>
 <summary>Validando Sudoku</summary>
  - Para visualizar a resolução verifique o arquivo de nome ListManipulation.js
- - Para rodar um teste individual peço que substitua o valor da variavel board com a nova entrada e utilize: ``` node SudokuValitationRun.js ```
+ - Para rodar um teste individual peço que substitua o valor da variavel board com a nova entrada e utilize: 
+ 
+ ``` node SudokuValitationRun.js ```
+ 
 
 #### Exemplo de como será recebido o resultado:
 
@@ -51,7 +58,9 @@ board =
 ## Casos de teste 
 
 <details>
- - Para executar o teste unitário de ambos os problemas utilize: ``` npm test ```
+ - Para executar o teste unitário de ambos os problemas utilize: 
+ 
+ ``` npm test ```
 
 
 </details>
