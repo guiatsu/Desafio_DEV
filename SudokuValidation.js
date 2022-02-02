@@ -12,7 +12,7 @@ function HasDuplicates(array){
             return array.indexOf(num) != idx;
         }).length)
     {
-        return true
+        return true;
     }
     return false;
 }
@@ -21,6 +21,12 @@ function SudokuValidation(board){
     var col = [];
     var row = [];
     var square = [];
+    if (board.length != 9) //testa se o tabuleiro tem 9 linhas
+        return false;
+    for(var i = 0; i < 9;i++){
+        if(board[i].length != 9) // testa se todas as linhas tem 9 colunas
+            return false;
+    }
     for(var i = 0; i < 9;i++){
         for(var j = 0; j < 9; j++){
             if(board[i][j].search("[^1-9.]") != -1){ //verifica se tem algo que não seja os caracteres validos no sudoku
